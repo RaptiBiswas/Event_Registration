@@ -1,5 +1,5 @@
 # Event_Registration
-Here I created a simple Website with
+It is a simple Website with
 1. Home Page
 2. About Page
 3. Registration Form

@@ -1,0 +1,96 @@
+body{
+    background: rgb(2,0,36);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,9,121,1) 24%, rgba(205,0,255,1) 100%);
+    background: -o-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,9,121,1) 24%, rgba(205,0,255,1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,9,121,1) 24%, rgba(205,0,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,9,121,1) 24%, rgba(205,0,255,1) 100%);
+}
+label{
+    font-size: 40;
+    font-weight: 600;
+    position: relative;
+    
+}
+
+div.box{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),0 2px 3px 0 rgba(0,0,0,.1);
+    max-width: 700px;
+    margin-left: 25%;
+    margin-top: 3%;
+    padding: 25px 30px;
+    overflow: inherit;
+    font-weight: 600;
+    
+    align-items:center;
+    justify-content: center;
+    border-radius: 30px 30px 30px 30px;
+   -moz-border-radius: 30px 30px 30px 30px;
+   -webkit-border-radius: 30px 30px 30px 30px;
+    border: 0px solid #000000;
+} 
+.box form .userdetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .userdetails .inputBox{
+    margin-bottom: 15px; 
+    width: calc(100%/2 - 20px);
+}
+.userdetails .inputBox .details{
+    display: block;+
+    margin-bottom: 5px;
+}
+.userdetails .inputBox input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.box form .selection{
+    margin: 20px 0 12px 0;
+}
+form .selection .inputBox{
+    margin-bottom: 15px; 
+    width: calc(100%/2 - 20px);
+}
+.userdetails .inputBox .details{
+    display: block;
+    margin-bottom: 5px;
+}
+.inputBox select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #FFFFFF;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,9,121,1) 24%, rgba(205,0,255,1) 100%);
+    
+}
+form .button input:hover{
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #0ADBE5, 0 0 20px #0ADBE5, 0 0 30px #0065BE, 0 0 40px #0065BE, 0 0 50px #0065BE, 0 0 60px #0065BE, 0 0 70px #0065BE;
+}

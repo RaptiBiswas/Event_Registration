@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background: rgb(2,0,36);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,9,121,1) 24%, rgba(205,0,255,1) 100%);
+    background: -o-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,9,121,1) 24%, rgba(205,0,255,1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,9,121,1) 24%, rgba(205,0,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,9,121,1) 24%, rgba(205,0,255,1) 100%);
+}
+nav{
+    width: 100%;
+    margin: 0;
+}
+nav ul{
+    background-color:#FFFFFF;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+}
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+ul.topnav li.topnav-right{
+    float: right;
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color:#08084E;
+}
+ul.topnav li a:hover{
+    color:aqua;
+}
+footer.footsy{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #08084E;
+    background-color:#FFFFFF; 
+   
+}
+footer.footsy div.foottext{
+    text-align: center;
+}

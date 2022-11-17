@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-image: url(party_background_0410.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    margin: 0;
+}
+nav ul{
+    background-color:black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+}
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+ul.topnav li.topnav-right{
+    float: right;
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+ul.topnav li a:hover{
+    color:#00FFFF;
+}
+.top{
+    color:#000000 ;
+    text-align: center;
+    font-size: 30;
+    position: absolute;
+    top: 19.8%;
+    left: 36%;
+    
+}
+.top:hover{
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #B58BCD, 0 0 20px #B58BCD, 0 0 30px #7000B4, 0 0 40px #7000B4, 0 0 50px #7000B4, 0 0 60px #7000B4, 0 0 70px #7000B4;
+}
+.reg{
+    text-align: center;
+    position: absolute;
+    top: 35.5%;
+    left: 44%;
+}
+.reg h1 a{
+    color:#000000 ;
+    text-decoration: none;
+}
+.reg h1 a:hover{
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #0ADBE5, 0 0 20px #0ADBE5, 0 0 30px #0065BE, 0 0 40px #0065BE, 0 0 50px #0065BE, 0 0 60px #0065BE, 0 0 70px #0065BE;
+}

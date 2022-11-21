@@ -38,6 +38,58 @@ ul.topnav li a{
 ul.topnav li a:hover{
     color:aqua;
 }
+
+.row{
+    display: flex;
+    height: 75%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    padding-left: 50px;
+    padding-left: 75px;
+}
+h1{
+    color: #FFFFFF;
+}
+p{
+    color: #FFFFFF;
+}
+h4{
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #0ADBE5, 0 0 20px #0ADBE5, 0 0 30px #001E84, 0 0 40px #001E84, 0 0 50px #001E84, 0 0 60px #001E84, 0 0 70px #001E84;
+}
+.card{
+    width:230px ;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 18px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    transition: transform 0.5;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card1{
+    background-image:url(dance-party.jpg);
+    background-size: cover;
+    
+}
+.card2{
+    background-image:url(music.jpeg);
+    background-size: cover;
+}
+.card3{
+    background-image:url(dance-430554_1280.jpg);
+    background-size: cover;
+}
+.card4{
+    background-image:url(prize.jpg);
+    background-size: cover;
+}
+
 footer.footsy{
     position: absolute;
     bottom: 0;

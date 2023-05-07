@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Register</title>
+    
+
+<!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+<!-- custom css link -->
+    <link rel="stylesheet" href="regis.css">
+ </head>
+    <body>
+        <div class="container">
+        <div class="title">
+            <p>Registration</p>
+        </div>
+
+        <form action="regis.php" method="post">
+            <div class="user_details">
+                <div class="input_box">
+                    <label for="name">First Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" name="firstname" required>
+                </div>
+                <div class="input_box">
+                    <label for="username">Last Name</label>
+                    <input type="text" id="username" placeholder="Enter your username" name="lastname" required>
+                </div>
+                <div class="input_box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" name="email" required>
+                </div>
+                <div class="input_box">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="phone" placeholder="Enter your number" name="number" required>
+                </div>
+                <div class="input_box">
+                   <label class="details">Event to participate</label><br>
+                <select name="Event" id="event">
+                    <option seleted hidden value="">Select Event</option>
+                    <option value="Dance">Dance to the beat</option>
+                    <option value="Voice">Voice</option>
+                    <option value="Hack">Hack the web</option>
+                    <option value="Comedy">Stand up Comedy</option>
+                    <option value="Spell">Spell Beat</option>
+                </select>
+                </div>
+            </div>
+            <div class="gender">
+                <span class="gender_title">Gender</span>
+                <input type="radio" name="gender" id="radio_1" name="gender" value="M">
+                <input type="radio" name="gender" id="radio_2" name="gender" value="F">
+                <input type="radio" name="gender" id="radio_3" name="gender" value="O">
+
+                <div class="category">
+                    <label for="radio_1">
+                        <span class="dot one"></span>
+                        <span>Male</span>
+                    </label>
+                    <label for="radio_2">
+                        <span class="dot two"></span>
+                        <span>Female</span>
+                    </label>
+                    <label for="radio_3">
+                        <span class="dot three"></span>
+                        <span>Prefer not to say</span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="reg_btn">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+    </body>
+</html>
